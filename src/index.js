@@ -2,9 +2,9 @@ const BotProxy = require('./bot-proxy');
 const EngagementManager = require('./engagementManager');
 const { managerModes } = require('./constants');
 
-const token = '';
-const groupChatId = 'test';
-const groupChatId = '';
+const token = '847795314:AAFVC2lTOPJ9Xbjew1xrXwQw7pB-X3Yn91A';
+const groupChatId = 'IwAR3LZcatP3dLncEuP3Xuxp8Z50eJKjYs6qEWoHkeJPbS17PcasI5vYXZDqQ';
+const groupChatId = 'IwAR3LZcatP3dLncEuP3Xuxp8Z50eJKjYs6qEWoHkeJPbS17PcasI5vYXZDqQ';
 
 const botProxy = new BotProxy(token, groupChatId, true);
 
